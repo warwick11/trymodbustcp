@@ -42,9 +42,9 @@ try:
     str_di='0x'+di
     #INT型に変更
     int_di=int(str_di,16)
-    #16進数に変kな
+    #16進数に変換
     hex_di=hex(int_di)
-    #２進数に変換:
+    #２進数に変換
     bit_di=bin(hex_di)
     time.sleep(1)
     
